@@ -14,7 +14,7 @@ body{
     width: 350px;
     background-color: #344C64;
     margin-top: 5rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     border-radius: 3rem;
     border: 5px solid #26384a;
 }
@@ -29,12 +29,15 @@ body{
 .input-section input{
     height: 7rem;
     width: 19rem;
-    border: none ;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
     outline: none;
     background-color: transparent;
     font-size: 48px;
     color: white;
     text-align: right;
+    margin-bottom: 1rem;
 }
 
 .input-buttons{
