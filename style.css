@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container{
+    height: 570px;
+    width: 350px;
+    background-color: #344C64;
+    margin-top: 5rem;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    border: 5px solid #26384a;
+}
+
+.input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.input-section input{
+    height: 7rem;
+    width: 19rem;
+    border: none ;
+    outline: none;
+    background-color: transparent;
+    font-size: 48px;
+    color: white;
+    text-align: right;
+}
+
+.input-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button{
+    height: 4rem;
+    width: 4rem;
+    border: 1 solid black;
+    background-color: #344C64;
+    color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    cursor: pointer;
+}
+
+.button:hover{
+    height: 4.1rem;
+    width: 4.1rem;
+}
+
+#equal{
+    width: 9rem;
+}
+
+#ac, #dc, #percent, #divide, #equal, #multiply, #minus, #plus{
+    background-color: #E65C19;
+}
